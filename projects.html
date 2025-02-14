@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adarsh's Portfolio - Contact</title>
+    <title>Adarsh's Portfolio - Projects</title>
     <link rel="stylesheet" href="projects.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,30 +13,36 @@
 <body>
     <header id="header">
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
         </nav>
-    </header>
-    <h1>Contact Me</h1>
+      </header>
+    <h1>My Projects</h1>
     <main>
-        <p>Fill in your information here</p>
-        <form id="contactForm">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-
-            <button type="submit">Send</button>
-        </form>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Spoiler Alert</h3>
+                <p>As the UI/UX Designer and Front-End Developer, I contributed to the design and development of Spoiler Alert!, a smart fridge platform that allows users to manage their groceries efficiently. Users can input foods and ingredients into a digital fridge, track expiration dates manually or via AI, and share their fridge with others. Additionally, the platform generates recipes based on available ingredients, prioritizing items nearing expiration.</p>
+                <a href="https://github.com/EthanLi1360/spoiler_alert/tree/main" class="project-link">View Project</a>
+                <p class="skills">Skills: Figma (Software) · React.js</p>
+            </div>
+            <div class="project-card">
+                <h3>LLMuminate</h3>
+                <p>Inspired by the growing reliance on large language models (LLMs) like ChatGPT, Claude, and Gemini, LLMuminate was developed to address the critical issue of misinformation in AI-generated content. LLMuminate is a Chrome extension designed to fact-check AI responses instantly against reputable, peer-reviewed journals like PubMed.</p>
+                <a href="https://github.com/AAsteriskz7/LLMuminate.ai" class="project-link">View Project</a>
+                <p class="skills">Skills: Anthropic Claude · Web Scraping · Python (Programming Language)</p>
+            </div>
+            <div class="project-card">
+                <h3>Onco-Bot</h3>
+                <p>Inspired by the rising number of cancer patients worldwide and personal experiences within our team, we developed OncoBot to assist in the early detection of skin cancer. OncoBot aims to empower users to check suspicious skin marks and find nearby medical services.</p>
+                <a href="https://devpost.com/software/oncobot-qlkv0n" class="project-link">View Project</a>
+                <p class="skills">Skills: Python (Programming Language) · OpenCV</p>
+            </div>            
+        </div>
     </main>
-    
 </body>
 </html>
